@@ -21,3 +21,23 @@ dist/
 # System
 .DS_Store
 Thumbs.db
+
+# ===== 个人投资敏感数据（禁止上传）=====
+# 真实持仓 / 交易记录
+data/real/
+data/holdings/
+data/trades/
+*holdings*.csv
+*trades*.csv
+*positions*.xlsx
+
+# 凭证与密钥
+.env.*
+secrets/
+*.key
+*.pem
+credentials*.json
+accounts*.json
+
+# 含真实资金数据的本地报表
+reports/local/
